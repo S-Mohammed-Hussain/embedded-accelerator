@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 int main(){
-    int arr[] = {10, 20,30, 40};
+    int arr[] = {10, 20, 30,40};
     int *p = arr;
     printf("Address p = %p, Value = %d\n", p, *p);
     p++;
